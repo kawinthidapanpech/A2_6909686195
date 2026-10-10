@@ -25,19 +25,17 @@ body{
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.reflection{
-    width: 95%;
-    text-align: center;
-    padding: 9px;
-    border: 1px solid #b4c2ff;
-    border-radius: 10px;
-    border-bottom: 10px solid #b4c2ff;
-    background-color: #e6edf9;
-    margin: 10px auto;
-}
 footer{
     text-align: center;
-    color: #4d4dc0;
+    color: #383533;
+}
+
+.footing{
+ background-color: #e6edf9;
+  border: 2px solid #b4c2ff;
+  border-bottom: 10px solid #b4c2ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 html {
