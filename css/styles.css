@@ -1,5 +1,5 @@
 body{
-    background-color: #f8f8f8;
+    background-color: #fcf9f9;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -39,15 +39,7 @@ footer{
     text-align: center;
     color: #4d4dc0;
 }
-.whatandhow{
-    display: flex;
-    justify-content: space-between;
-    align-items: Stretch;
-    padding: 20px;
-}
-mark{
-    background-color: #5376c2;
-    color: white;
-    padding: 0 5px;
-    border-radius: 3px;
+
+html {
+    scroll-padding-top: 90px;
 }
