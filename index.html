@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>A1 Project</title>
+    <title>A2 Project</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css">
@@ -14,14 +14,14 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="container">
-                <div class="nav navbar-nav">
-                    <a class="navbar-brand" href="#">
-                        <img src="media/LOGO.webp" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> </a>
-                    <a class="nav-item nav-link d-none d-md-block" href="#portfolio-image-desktop">Image</a>
-                    <a class="nav-item nav-link d-block d-md-none" href="#portfolio-image-mobile">Image</a>
-                    <a class="nav-item nav-link" href="#about-me">About Me</a>
-                    <a class="nav-item nav-link" href="#CS100">CS100</a>
-                    <a class="nav-item nav-link" href="#POSN">POSN</a>
+                <div class="nav navbar-nav"> 
+                    <a class="navbar-brand " href="#">
+                        <img src="media/LOGO.webp" alt="Avatar Logo" style="width:50px;" class="rounded-pill"> </a>
+                    <a class="nav-item nav-link d-none d-md-block fw-bold " href="#portfolio-image-desktop">Image</a>
+                    <a class="nav-item nav-link d-block d-md-none fw-bold" href="#portfolio-image-mobile">Image</a>
+                    <a class="nav-item nav-link fw-bold" href="#about-me">About Me</a>
+                    <a class="nav-item nav-link fw-bold" href="#CS100">CS100</a>
+                    <a class="nav-item nav-link fw-bold" href="#POSN">POSN</a>
                 </div>
             </div>
         </nav>
@@ -79,23 +79,42 @@
     </section>
 
 
-    <Div class="whatandhow">
-        <section id="CS100">
-            <h2><mark>What</mark> I Built </h2>
-            <p>เว็บMy profile มีส่วนประกอบคือ ข้อมูลเบื้องต้นเกี่ยวกับตัวฉัน การศึกษา และตอนเปิดเว็บไซต์จากเครื่อง
-                มีclientและserverเกิดขึ้น เพราะbrowserคือclient ที่ร้องขอหน้าเว็บจากserver ซึ่งserverในที่นี้คือ local
-                server ที่ทำงานอยู่บนเครื่องของฉัน
-            </p>
-        </section>
-
-        <section id="POSN">
-            <h2><mark>How</mark> I Built It</h2>
-            <p>คิดรูปแบบหน้าตาของเว็บไซต์ไว้ก่อน จากนั้นก็ไปวางโครงสร้างhtmlไว้คร่าวๆ แล้วไปทำstyle.css
-                ให้เสร็จตามแบบที่คิดไว้ แล้วค่อยมาเขียนข้อมูลต่างๆในhtml ใช้chatgptกับ <a
-                    href="https://www.w3schools.com/Css/">w3schools</a>ในการหาชุดคำสั่งและอธิบายในจุดที่ไม่ค่อยเข้าใจ
-            </p>
-        </section>
-    </Div>
+    <section class="container my-4">
+        <div class="row">
+            <div id="CS100" class="col-12 col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 style="text-align: center;">CS 100</h2>
+                        <p class="fs-5 mb-1 ps-4"><b>Title :</b> A1: My First Learning Portfolio <br>
+                           <b>Type :</b> Course Assignment <br>
+                           <b>Date :</b> 30 ส.ค. 2569 เวลา 23.59 น.<br>
+                           <b>Role :</b>  Individual Developer <br>
+                           <b>Description :</b>พัฒนาเว็บMy profile โดยใช้HTML และ CSS<br>
+                           <b>Skills :</b> HTML, CSS <br>
+                           <b>Reflection :</b> ตอนทำเว็บ My Profile ได้ฝึกสร้างเว็บด้วย HTML และ CSS ทำให้เริ่มเข้าใจหลักการทำงานของทั้งสองตัว ตอนแรกมีปัญหาเรื่องการจัดกล่องให้วางข้างกันและมีขนาดเท่ากัน แต่พอลองปรับ border, margin และ padding ทีละจุดก็เข้าใจมากขึ้น ถ้าพัฒนาต่ออยากเพิ่มลูกเล่นและตกแต่งเว็บให้น่าสนใจขึ้น <br>
+                           <b>Evidence :</b> <a href="https://github.com/kawinthidapanpech/A1-Project" class="link-secondary" target="_blank" style="text-decoration: none; font-weight: bold;">GitHub Repository</a> 
+                           ,
+                           <a href="https://kawinthidapanpech.github.io/A1-Project/" class="link-secondary" target="_blank" style="text-decoration: none; font-weight: bold;">Deployed Website</a>
+                       
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div id="POSN" class="col-12 col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2>POSN</h2>
+                    <p>เว็บMy profile มีส่วนประกอบคือ ข้อมูลเบื้องต้นเกี่ยวกับตัวฉัน การศึกษา
+                        และตอนเปิดเว็บไซต์จากเครื่อง
+                        มีclientและserverเกิดขึ้น เพราะbrowserคือclient ที่ร้องขอหน้าเว็บจากserver ซึ่งserverในที่นี้คือ
+                        local
+                        server ที่ทำงานอยู่บนเครื่องของฉัน
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
     <section class="reflection">
         <h2>Reflection</h2>

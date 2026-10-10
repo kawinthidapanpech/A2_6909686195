@@ -6,31 +6,24 @@ body{
 #about-me .card{
  background-color: #e6edf9;
   border: 2px solid #b4c2ff;
+  border-bottom: 10px solid #b4c2ff;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.what-i-built{
-    position: relative;
-    width: 45%;
-    border: 1px solid #b4c2ff;
-    border-radius: 10px;
-    background-color: #e6edf9;
-    border-bottom: 10px solid #b4c2ff;
-    padding: 15px;
-    box-sizing: border-box;
-    margin: 10px auto ;
+#CS100 .card{
+ background-color: #e6edf9;
+  border: 2px solid #b4c2ff;
+  border-bottom: 10px solid #b4c2ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.how-i-built{
-    position: relative;
-    width: 49%;
-    border: 1px solid #b4c2ff;
-    border-radius: 10px;  
-    border-bottom: 10px solid #b4c2ff;
-    padding: 15px;
-    background-color: #e6edf9;
-    box-sizing: border-box;
-    margin: 10px auto ;
+#POSN .card{
+ background-color: #e6edf9;
+  border: 2px solid #b4c2ff;
+  border-bottom: 10px solid #b4c2ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .reflection{
     width: 95%;
