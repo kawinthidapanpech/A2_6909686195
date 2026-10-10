@@ -1,0 +1,88 @@
+body{
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header{
+    padding: 15px;
+    text-align: center;
+    background-color: #5376c2;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.about-me{
+    position: relative;
+    border: 1px solid #b4c2ff;
+    border-radius: 10px;
+    background-color: #e6edf9;
+    border-bottom: 10px solid #b4c2ff;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px auto;
+
+}
+.school{
+    position: relative;
+    border: 1px solid #b4c2ff;
+    border-radius: 10px;
+    background-color: #e6edf9;
+    border-bottom: 10px solid #b4c2ff;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+.what-i-built{
+    position: relative;
+    width: 45%;
+    border: 1px solid #b4c2ff;
+    border-radius: 10px;
+    background-color: #e6edf9;
+    border-bottom: 10px solid #b4c2ff;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px auto ;
+}
+.how-i-built{
+    position: relative;
+    width: 49%;
+    border: 1px solid #b4c2ff;
+    border-radius: 10px;  
+    border-bottom: 10px solid #b4c2ff;
+    padding: 15px;
+    background-color: #e6edf9;
+    box-sizing: border-box;
+    margin: 10px auto ;
+}
+.reflection{
+    width: 95%;
+    text-align: center;
+    padding: 9px;
+    border: 1px solid #b4c2ff;
+    border-radius: 10px;
+    border-bottom: 10px solid #b4c2ff;
+    background-color: #e6edf9;
+    margin: 10px auto;
+}
+footer{
+    text-align: center;
+    color: #4d4dc0;
+}
+.whatandhow{
+    display: flex;
+    justify-content: space-between;
+    align-items: Stretch;
+    padding: 20px;
+}
+.portfolio-image{
+    display: block;
+    margin: 0px auto;
+    max-width: 25%;
+    height: auto;
+    padding-bottom: 30px;
+}
+mark{
+    background-color: #5376c2;
+    color: white;
+    padding: 0 5px;
+    border-radius: 3px;
+}
